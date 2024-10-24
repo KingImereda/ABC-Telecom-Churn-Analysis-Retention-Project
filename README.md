@@ -76,6 +76,15 @@ Switch from Power BI environment to Synapse Data Engineering environment
 
 - Power BI
   - Dashboard and Report Visualization.
+ 
+## Load raw csv file from local machine into Fabric environment, into Lakehouse - file subsection
+- Click on created Lakehouse
+- Under 'Explorer', click on 'File', then the three '...'
+- From the dropdown, click 'upload', then choose 'upload file'
+- On top right, click on file icon
+- Select file from your local machine
+- Click upload
+
 
 
 
