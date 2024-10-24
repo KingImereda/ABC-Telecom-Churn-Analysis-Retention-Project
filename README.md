@@ -52,7 +52,7 @@ Prerequisite: Enable Microsoft Fabric in Power BI Account as an Admin or Tenant.
 - Go to (app.powerbi.com)
 - Navigate to "workspaces" tab on the left
 - At the bottom, click( + New Workspace )
-  - A drop down at the top right; Enter name of workspace " Crypto Project "
+  - A drop down at the top right; Enter name of workspace " Churn Analysis & Customer Retention "
   - Optional: In the description box, give detail description of project.
   - Scroll downward to "Advance" assign licensing to the workspace by clicking on "Trial", if you using trial version. Or " Premium Capacity", if you are using premium license.
   - Click Apply button
