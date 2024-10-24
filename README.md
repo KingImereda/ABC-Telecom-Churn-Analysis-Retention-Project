@@ -46,6 +46,37 @@ Return on Investment (ROI)
 ## Conclusion
 By implementing this comprehensive churn analysis and retention strategy, ABC Telecom can significantly improve customer retention, increase profitability, and gain a competitive advantage in the telecom market. The proposed solution provides a data-driven approach to address the challenges of customer churn and maximize long-term success.
 
+## Environment Setup
+### Create and configure Microsoft Fabric Workspace for this project
+Prerequisite: Enable Microsoft Fabric in Power BI Account as an Admin or Tenant.
+- Go to (app.powerbi.com)
+- Navigate to "workspaces" tab on the left
+- At the bottom, click( + New Workspace )
+  - A drop down at the top right; Enter name of workspace " Crypto Project "
+  - Optional: In the description box, give detail description of project.
+  - Scroll downward to "Advance" assign licensing to the workspace by clicking on "Trial", if you using trial version. Or " Premium Capacity", if you are using premium license.
+  - Click Apply button
+
+### Create and configure Storage in Fabric environment, i.e. Lakehouse Database.
+Switch from Power BI environment to Synapse Data Engineering environment
+- Click on the Power BI icon on the bottom left.
+- Then, click on the "Data Engineering " Component
+- Then, click on Lakehouse icon
+- From the dropdown, "Name Lakehouse"- <ABC_Telecom>
+- Click "create"
+
+## Tools Used:
+- Synapse Data Engineer
+  - Data Cleaning and Preprocessing.
+  - Explorative Data Analysis
+
+- Synapse Data Science 
+  - Building Machine learning model
+  - Batch Prediction
+
+- Power BI
+  - Dashboard and Report Visualization.
+
 
 
 
