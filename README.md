@@ -43,60 +43,32 @@ Return on Investment (ROI)
 
 
 ## Insights
-1. Descriptive Statistics Insights
-- Total Subscribers: ABC_Telecom has 7,043 subscribers.
-- Customer Tenure: Maximum tenure is 72 months, with an average of 32.4 months.
-- 75% of subscribers have stayed less than 55 months; 50% less than 29 months.
-- Monthly Charges: Average monthly charge per customer is $64.67, with only 25% paying more than $89.85.
-- Total Charges: Average total charges are $2,283.30, with 75% of customers spending under $3,794.74.
+1. Customer Demographics & Billing: Non-senior citizens, customers without dependents, and those using electronic check or paperless billing show higher churn rates.
+  
+2. Contract Type: Monthly contracts correlate with high churn, while long-term contracts (two years or more) see significantly lower churn.
+  
+3. Tenure Influence: Churn is highest within the first 12 months and decreases with longer customer tenure.
+  
+4. Service & Support: Lack of tech support, online security, and device protection are major churn drivers.
+  
+5. Internet Type: Fibre optic internet users experience the highest churn compared to DSL or no internet service.
+  
+6. Charges: Higher monthly charges are associated with higher churn, while total charges increase as monthly charges rise, as expected.
 
-2. Customer Status
-- Active vs. Churned: Of 7,043 subscribers, 5,174 are active and 1,869 have churned (inactive), meaning 73.46% remain active, while 26.53% have left
+## Recommendations:
+Here are some recommendations based on the insights:
 
-3. Tenure Group Breakdown
-- Tenure distribution shows higher churn in the initial months:
-  - 1-12 months: 2,175
-  - 61-72 months: 1,407
-  - Other groups range from 762 to 1,024.
- 
-4. Partner Status and Churn
-- Marital Status: More married customers are retained compared to those without a partner, with higher churn among customers with no partner.
+1. Promote Long-Term Contracts: Encourage customers to choose yearly or two-year plans by offering discounts or additional benefits, as longer contracts are linked to lower churn rates.
 
-5. Dependent Status
-- Dependents: Customers without dependents are more likely to churn compared to those with dependents.
-6. Internet Service Type
-- Internet Service: Fibre optic users have the highest churn rates compared to DSL users.
+2. Enhance Onboarding Support: Provide targeted support, particularly during the first 12 months, to reduce early-stage churn. Implement welcome calls, personalized check-ins, and proactive engagement to help customers fully utilize their services.
 
-7. Security & Device Protection
-- Additional Services: High churn rates among customers without online security, backup, or device protection.
+3. Expand Customer Service Options: Increase access to tech support, online security, and device protection services. Consider bundling these with internet packages to improve customer retention.
 
-8. Billing Preferences
-- Paperless Billing: Churn is higher among those who use paperless billing.
+4. Offer Personalized Billing and Payment Options: Given higher churn rates among electronic check and paperless billing users, introduce flexible billing cycles, personalized payment methods, and incentives for timely payments.
 
-9. Tenure and Churn Rates
-- Early Tenure Churn: Highest churn in the 1-12 month group, lowest churn in the 60-72 month group.
+5. Introduce Discounts on High Monthly Charges: For customers with higher monthly charges, offer loyalty discounts or tiered pricing options to increase affordability and satisfaction.
 
-10. Monthly vs. Total Charges
-- Charges Relationship: Total charges increase with monthly charges, as expected.
-
-11. Charges and Churn
-- High Charges and Churn: Churn rates increase with higher monthly charges.
-
-12. High vs. Low Churn Characteristics
-- High Churn: Observed with month-to-month contracts, no online security, no tech support, initial subscription year, and fibre optic internet.
-- Low Churn: Noted with long-term contracts, no internet service, and customers with 5+ years tenure.
-- Neutral Factors: Gender, phone service availability, and multiple lines have minimal impact on churn.
-13. Demographic and Payment Insights
-- Payment Method: Highest churn with electronic check payment; more female churners in the credit card category.
-- Contract Type: Monthly contracts see high churn, while two-year contracts have low churn.
-- Tech Support & Internet Service: High churn among customers without tech support; low churn among those without internet.
-- Age Group: Non-senior citizens are more likely to churn, while seniors show lower churn rates across genders.
-
-
-
-
-
-## Recommendations
+6. Invest in Retention for Fibre Optic Users: Since fibre optic users have higher churn, consider exclusive promotions, loyalty rewards, and service quality enhancements for this segment to boost satisfaction and retention.
 
 ## Conclusion
 By implementing this comprehensive churn analysis and retention strategy, ABC Telecom can significantly improve customer retention, increase profitability, and gain a competitive advantage in the telecom market. The proposed solution provides a data-driven approach to address the challenges of customer churn and maximize long-term success.
