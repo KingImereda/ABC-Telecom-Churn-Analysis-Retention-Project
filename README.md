@@ -42,7 +42,7 @@ Return on Investment (ROI)
 4. The expected ROI depends on factors such as reduced churn rates, increased customer lifetime value, and implementation costs. A detailed ROI analysis will quantify the financial benefits and justify the investment.
 
 
-## Insights
+## Insights And Analysis:
 1. #### Customer Demographics & Billing:
 Non-senior citizens, customers without dependents, and those using electronic check or paperless billing show higher churn rates.
   
