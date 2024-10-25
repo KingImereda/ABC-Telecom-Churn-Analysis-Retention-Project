@@ -43,6 +43,56 @@ Return on Investment (ROI)
 
 
 ## Insights
+1. Descriptive Statistics Insights
+- Total Subscribers: ABC_Telecom has 7,043 subscribers.
+- Customer Tenure: Maximum tenure is 72 months, with an average of 32.4 months.
+- 75% of subscribers have stayed less than 55 months; 50% less than 29 months.
+- Monthly Charges: Average monthly charge per customer is $64.67, with only 25% paying more than $89.85.
+- Total Charges: Average total charges are $2,283.30, with 75% of customers spending under $3,794.74.
+
+2. Customer Status
+- Active vs. Churned: Of 7,043 subscribers, 5,174 are active and 1,869 have churned (inactive), meaning 73.46% remain active, while 26.53% have left
+
+3. Tenure Group Breakdown
+- Tenure distribution shows higher churn in the initial months:
+  - 1-12 months: 2,175
+  - 61-72 months: 1,407
+  - Other groups range from 762 to 1,024.
+ 
+4. Partner Status and Churn
+- Marital Status: More married customers are retained compared to those without a partner, with higher churn among customers with no partner.
+
+5. Dependent Status
+- Dependents: Customers without dependents are more likely to churn compared to those with dependents.
+6. Internet Service Type
+- Internet Service: Fibre optic users have the highest churn rates compared to DSL users.
+
+7. Security & Device Protection
+- Additional Services: High churn rates among customers without online security, backup, or device protection.
+
+8. Billing Preferences
+- Paperless Billing: Churn is higher among those who use paperless billing.
+
+9. Tenure and Churn Rates
+- Early Tenure Churn: Highest churn in the 1-12 month group, lowest churn in the 60-72 month group.
+
+10. Monthly vs. Total Charges
+- Charges Relationship: Total charges increase with monthly charges, as expected.
+
+11. Charges and Churn
+- High Charges and Churn: Churn rates increase with higher monthly charges.
+
+12. High vs. Low Churn Characteristics
+- High Churn: Observed with month-to-month contracts, no online security, no tech support, initial subscription year, and fibre optic internet.
+- Low Churn: Noted with long-term contracts, no internet service, and customers with 5+ years tenure.
+- Neutral Factors: Gender, phone service availability, and multiple lines have minimal impact on churn.
+13. Demographic and Payment Insights
+- Payment Method: Highest churn with electronic check payment; more female churners in the credit card category.
+- Contract Type: Monthly contracts see high churn, while two-year contracts have low churn.
+- Tech Support & Internet Service: High churn among customers without tech support; low churn among those without internet.
+- Age Group: Non-senior citizens are more likely to churn, while seniors show lower churn rates across genders.
+
+
 
 
 
