@@ -56,7 +56,7 @@ Return on Investment (ROI)
 6. Charges: Higher monthly charges are associated with higher churn, while total charges increase as monthly charges rise, as expected.
 
 ## Recommendations:
-Here are some recommendations based on the insights:
+Here are some recommendations based on the insights gathered:
 
 1. Promote Long-Term Contracts: Encourage customers to choose yearly or two-year plans by offering discounts or additional benefits, as longer contracts are linked to lower churn rates.
 
