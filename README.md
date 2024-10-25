@@ -43,32 +43,44 @@ Return on Investment (ROI)
 
 
 ## Insights
-1. Customer Demographics & Billing: Non-senior citizens, customers without dependents, and those using electronic check or paperless billing show higher churn rates.
+1. #### Customer Demographics & Billing:
+Non-senior citizens, customers without dependents, and those using electronic check or paperless billing show higher churn rates.
   
-2. Contract Type: Monthly contracts correlate with high churn, while long-term contracts (two years or more) see significantly lower churn.
+2. #### Contract Type:
+Monthly contracts correlate with high churn, while long-term contracts (two years or more) see significantly lower churn.
   
-3. Tenure Influence: Churn is highest within the first 12 months and decreases with longer customer tenure.
+3. #### Tenure Influence:
+Churn is highest within the first 12 months and decreases with longer customer tenure.
   
-4. Service & Support: Lack of tech support, online security, and device protection are major churn drivers.
+4. #### Service & Support:
+Lack of tech support, online security, and device protection are major churn drivers.
   
-5. Internet Type: Fibre optic internet users experience the highest churn compared to DSL or no internet service.
+5. #### Internet Type:
+Fibre optic internet users experience the highest churn compared to DSL or no internet service.
   
-6. Charges: Higher monthly charges are associated with higher churn, while total charges increase as monthly charges rise, as expected.
+6. #### Charges:
+Higher monthly charges are associated with higher churn, while total charges increase as monthly charges rise, as expected.
 
 ## Recommendations:
 Here are some recommendations based on the insights gathered:
 
-1. Promote Long-Term Contracts: Encourage customers to choose yearly or two-year plans by offering discounts or additional benefits, as longer contracts are linked to lower churn rates.
+1. #### Promote Long-Term Contracts:
+Encourage customers to choose yearly or two-year plans by offering discounts or additional benefits, as longer contracts are linked to lower churn rates.
 
-2. Enhance Onboarding Support: Provide targeted support, particularly during the first 12 months, to reduce early-stage churn. Implement welcome calls, personalized check-ins, and proactive engagement to help customers fully utilize their services.
+2. #### Enhance Onboarding Support:
+Provide targeted support, particularly during the first 12 months, to reduce early-stage churn. Implement welcome calls, personalized check-ins, and proactive engagement to help customers fully utilize their services.
 
-3. Expand Customer Service Options: Increase access to tech support, online security, and device protection services. Consider bundling these with internet packages to improve customer retention.
+3. #### Expand Customer Service Options:
+Increase access to tech support, online security, and device protection services. Consider bundling these with internet packages to improve customer retention.
 
-4. Offer Personalized Billing and Payment Options: Given higher churn rates among electronic check and paperless billing users, introduce flexible billing cycles, personalized payment methods, and incentives for timely payments.
+4. #### Offer Personalized Billing and Payment Options:
+Given higher churn rates among electronic check and paperless billing users, introduce flexible billing cycles, personalized payment methods, and incentives for timely payments.
 
-5. Introduce Discounts on High Monthly Charges: For customers with higher monthly charges, offer loyalty discounts or tiered pricing options to increase affordability and satisfaction.
+5. #### Introduce Discounts on High Monthly Charges:
+For customers with higher monthly charges, offer loyalty discounts or tiered pricing options to increase affordability and satisfaction.
 
-6. Invest in Retention for Fibre Optic Users: Since fibre optic users have higher churn, consider exclusive promotions, loyalty rewards, and service quality enhancements for this segment to boost satisfaction and retention.
+6. #### Invest in Retention for Fibre Optic Users:
+Since fibre optic users have higher churn, consider exclusive promotions, loyalty rewards, and service quality enhancements for this segment to boost satisfaction and retention.
 
 ## Conclusion
 By implementing this comprehensive churn analysis and retention strategy, ABC Telecom can significantly improve customer retention, increase profitability, and gain a competitive advantage in the telecom market. The proposed solution provides a data-driven approach to address the challenges of customer churn and maximize long-term success.
