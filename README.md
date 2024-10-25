@@ -91,14 +91,14 @@ Switch from Power BI environment to Synapse Data Engineering environment
 - Click upload
 
 ## Add  lakehouse to your  Synapse Data Engineering Notebook
-In Synapse Data Engineer persona, to your  top-right click 'Notebook'
-In Notebook environment,On the left, click "Add Lakehouse" button.- This help in accessing the different tables and files that reside in the Lakehouse  directly from the Notebook.
-Choose "Existing Lakehouse".
-Click "Add".
-Check or choose the Lakehouse where the raw json data resides.
-Click "Add".
-From the imported Lakehouse Database to the left, click on "File " (-This shows all files that reside in the Lakehouse Database),then "..." , then "Load Data"
-There are two options (Spark or Pandas), Choose "Spark". A code is automatically generated to read the raw json file as a Pyspark DataFrame.
+- In Synapse Data Engineer persona, to your  top-right click 'Notebook'
+- In Notebook environment,On the left, click "Add Lakehouse" button.- This help in accessing the different tables and files that reside in the Lakehouse  directly from the Notebook.
+- Choose "Existing Lakehouse".
+- Click "Add".
+- Check or choose the Lakehouse where the raw json data resides.
+- Click "Add".
+- From the imported Lakehouse Database to the left, click on "File " (-This shows all files that reside in the Lakehouse Database),then "..." , then "Load Data"
+- There are two options (Spark or Pandas), Choose "Spark". A code is automatically generated to read the raw json file as a Pyspark DataFrame.
 
 
 
