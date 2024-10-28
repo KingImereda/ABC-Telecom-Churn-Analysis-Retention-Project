@@ -147,7 +147,7 @@ Switch from Power BI environment to Synapse Data Engineering environment
 - Perform Univariates Analysis of each of the 'Features' in respect to the 'Label'[churn]
 - Convert [churn] into binary values
 - Convert all non-numerical variables into dummy variables by applying One-Hot Encoding
-- Perform Bivariates Analysis of the 'Features' in respect to the 'Label' [chur]
+- Perform Bivariates Analysis of the 'Features' in respect to the 'Label' [churn]
 -  Analyse and draw business insights.
 -  Write/Save 'One-Hot Encoded' data into created Lakehouse
 
