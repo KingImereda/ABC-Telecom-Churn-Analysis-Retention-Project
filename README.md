@@ -13,7 +13,10 @@ ABC Telecom is experiencing substantial financial losses and operational challen
 4. Build a Predictive Churn Model: Develop a machine learning model using appropriate algorithms (e.g.,linear regression, logistic regression, random forest, decision tree) to predict customer churn probability. Select the model with the highest accuracy, such as 80%.
 5. Perform Batch Prediction: Apply the trained model to new customers to assess their churn risk and proactively implement retention strategies.
 6. Create a Power BI Dashboard: Visualize key performance metrics to track churn rates, customer lifetime value, and the effectiveness of retention efforts.
-7. Recommendations
+7. Recommendations.
+
+## Solution Architecture.
+![BBB](https://github.com/user-attachments/assets/c5b7fa6f-0925-4f6b-a2f7-f5e7e6bcfcef)
 
 ## The following steps were taken in carrying out the following Churn and Retention Analysis
 
