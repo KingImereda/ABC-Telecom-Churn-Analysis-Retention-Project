@@ -134,7 +134,8 @@ Switch from Power BI environment to Synapse Data Engineering environment
 - From the imported Lakehouse Database to the left, click on "File " (-This shows all files that reside in the Lakehouse Database),then "..." , then "Load Data"
 - There are two options (Spark or Pandas), Choose "Spark". A code is automatically generated to read the raw json file as a Pyspark DataFrame.
 
-## Data Cleaning, Preprocessing Explorative Data Analysis.
+## The following steps were taken in carrying out the following Churn and Retention Analysis
+## 1. Data Cleaning, Preprocessing Explorative Data Analysis.
 ### Data Cleaning.
 - Import necessary python libraries
 - Read the csv file
@@ -151,9 +152,41 @@ Switch from Power BI environment to Synapse Data Engineering environment
 -  Analyse and draw business insights.
 -  Write/Save 'One-Hot Encoded' data into created Lakehouse
 
+## 2. Build Machine Learning models.
+Using the saved 'One_Hot Encoding' dataset, the below ML model were developed with their performance metrics as follows 
 
-## Build Machine Learning models.
+![Screenshot 2024-10-28 150703](https://github.com/user-attachments/assets/07f97ccd-1227-4ce5-b661-471dadcb199f)
 
+![Screenshot 2024-10-28 150548](https://github.com/user-attachments/assets/87d27c32-47e6-4e48-90c7-c1302cc9facb)
+
+![Screenshot 2024-10-28 150638](https://github.com/user-attachments/assets/a2278bde-741f-4fd8-bde2-2f563ba08089)
+
+![Screenshot 2024-10-28 150717](https://github.com/user-attachments/assets/0c9c49cb-8981-48cf-9da2-e53368bb454d)
+
+#### From the above results, it can deduce that the classification model has the highest performance accuracy for our churn prediction among the four models as shown below
+
+- Accuracy (0.80): Your model correctly predicts the outcome about 80% of the time.
+
+- F1 Score (0.79): This balance between precision and recall is quite good, especially for imbalanced datasets.
+
+- Log Loss (0.42): Lower log loss indicates better model performance. Your log loss shows that the model is fairly confident in its predictions.
+
+- Precision (0.79): About 79% of the positive predictions made by your model are true positives.
+
+- Recall (0.80): The model correctly identifies 80% of all actual positives.
+
+- ROC AUC (0.85): A high ROC AUC indicates your model has a good ability to distinguish between classes.
+
+#### Overall, these metrics suggest a well-performing model, though there’s always room for improvement. This model is selected for the 'Churn' prediction
+
+## 3. Model Deployment 
+- Register the  ML classification model.
+- Define model signature, specify the structure and data types of the input and output data of the model
+- Creat new customers data to be later use for churn prediction
+- Apply selected Classification model to New customer data is created
+
+## 4. Predictions
+- Registered model is apply to new customer for prediction.
 
 
 
