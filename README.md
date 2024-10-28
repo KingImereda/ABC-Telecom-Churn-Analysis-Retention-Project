@@ -70,8 +70,8 @@ Switch from Power BI environment to Synapse Data Engineering environment
 - From the imported Lakehouse Database to the left, click on "File " (-This shows all files that reside in the Lakehouse Database),then "..." , then "Load Data"
 - There are two options (Spark or Pandas), Choose "Spark". A code is automatically generated to read the raw json file as a Pyspark DataFrame.
 
-## 1.
-## Data Cleaning, Preprocessing Explorative Data Analysis.
+
+## 1. Data Cleaning, Preprocessing Explorative Data Analysis.
 ### Data Cleaning.
 - Import necessary python libraries
 - Read the csv file
@@ -88,8 +88,8 @@ Switch from Power BI environment to Synapse Data Engineering environment
 -  Analyse and draw business insights.
 -  Write/Save 'One-Hot Encoded' data into created Lakehouse
 
-## 2.
-## Build Machine Learning models.
+
+## 2. Build Machine Learning models.
 Using the saved 'One_Hot Encoding' dataset, the below ML model were developed with their performance metrics as follows 
 
 ![Screenshot 2024-10-28 150703](https://github.com/user-attachments/assets/07f97ccd-1227-4ce5-b661-471dadcb199f)
@@ -116,15 +116,15 @@ Using the saved 'One_Hot Encoding' dataset, the below ML model were developed wi
 
 #### Overall, these metrics suggest a well-performing model, though there’s always room for improvement. This model is selected for the 'Churn' prediction
 
-## 3.
-## Register Define model StructureAnd Create New Customers Data
+
+## 3. Register Define model StructureAnd Create New Customers Data
 - Register the  ML classification model.
 - Define model signature, specify the structure and data types of the input and output data of the model
 - Creat new customers data to be later use for churn prediction
 - Apply selected Classification model to New customer data is created
 
-## 4.
-## Model Deployment And Predictions
+
+## 4. Model Deployment And Predictions
 - Registered model is apply to new customer for prediction.
 
 ## Project Benefits and Costs
