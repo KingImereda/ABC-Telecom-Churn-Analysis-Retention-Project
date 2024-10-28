@@ -90,7 +90,7 @@ Switch from Power BI environment to Synapse Data Engineering environment
 - There are two options (Spark or Pandas), Choose "Spark". A code is automatically generated to read the raw json file as a Pyspark DataFrame.
 
 
-## Data Cleaning Preprocessing  And Explorative Data Analysis
+## Data Cleaning Preprocessing And Explorative Data Analysis
 ### Data Cleaning.
 - Import necessary python libraries
 - Read the csv file
