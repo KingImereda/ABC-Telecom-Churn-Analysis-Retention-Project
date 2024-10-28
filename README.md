@@ -110,13 +110,13 @@ Using the saved 'One_Hot Encoding' dataset, the below ML model were developed wi
 
 #### Overall, these metrics suggest a well-performing model, though there’s always room for improvement. This model is selected for the 'Churn' prediction
 
-## 3. Model Deployment 
+## 3. Register Define model StructureAnd Create New Customers Data
 - Register the  ML classification model.
 - Define model signature, specify the structure and data types of the input and output data of the model
 - Creat new customers data to be later use for churn prediction
 - Apply selected Classification model to New customer data is created
 
-## 4. Predictions
+## 4. Model Deployment And Predictions
 - Registered model is apply to new customer for prediction.
 
 ## Project Benefits and Costs
