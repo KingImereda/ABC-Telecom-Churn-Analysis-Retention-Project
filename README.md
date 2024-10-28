@@ -7,9 +7,9 @@
 - [Solution Architecture](#solution-architecture)
 - [Environment Setup](#environment-setup)
 - [Tools Used](#tools-used)
-- [1 . Data Cleaning Preprocessing  And Explorative Data Analysis](#data-cleaning-preprocessing-and-explorative-data-analysis)
-- [2 . Machine Learning models](#machine-learning-model)
-- [3 . Register , Define ML model , Structure And Create New Customers Data](#register-,-define-ml-model-,-structure-and-create-new-customers-data)
+- [Data Cleaning Preprocessing  And Explorative Data Analysis](#data-cleaning-preprocessing-and-explorative-data-analysis)
+- [Machine Learning models](#machine-learning-model)
+- [Register , Define ML model , Structure And Create New Customers Data](#register-,-define-ml-model-,-structure-and-create-new-customers-data)
 - [Model Deployment And Predictions](#model-deployment-and-predictions)
 - [Project Benefits And Costs](#project-benefits-and-costs)
 - [Risk Assessment and Mitigation](#risk-assessment-and-mitigation)
@@ -90,7 +90,7 @@ Switch from Power BI environment to Synapse Data Engineering environment
 - There are two options (Spark or Pandas), Choose "Spark". A code is automatically generated to read the raw json file as a Pyspark DataFrame.
 
 
-## 1. Data Cleaning Preprocessing  And Explorative Data Analysis
+## Data Cleaning Preprocessing  And Explorative Data Analysis
 ### Data Cleaning.
 - Import necessary python libraries
 - Read the csv file
@@ -108,7 +108,7 @@ Switch from Power BI environment to Synapse Data Engineering environment
 -  Write/Save 'One-Hot Encoded' data into created Lakehouse
 
 
-## 2. Machine Learning models
+## Machine Learning models
 Using the saved 'One_Hot Encoding' dataset, the below ML model were developed with their performance metrics as follows 
 
 ![Screenshot 2024-10-28 150703](https://github.com/user-attachments/assets/07f97ccd-1227-4ce5-b661-471dadcb199f)
@@ -136,14 +136,14 @@ Using the saved 'One_Hot Encoding' dataset, the below ML model were developed wi
 #### Overall, these metrics suggest a well-performing model, though there’s always room for improvement. This model is selected for the 'Churn' prediction
 
 
-## 3. Register, Define ML model, Structure And Create New Customers Data
+## Register, Define ML model, Structure And Create New Customers Data
 - Register the  ML classification model.
 - Define model signature, specify the structure and data types of the input and output data of the model
 - Creat new customers data to be later use for churn prediction
 - Apply selected Classification model to New customer data is created
 
 
-## 4. Model Deployment And Predictions
+## Model Deployment And Predictions
 - Registered model is apply to new customer for prediction.
 
 ## Project Benefits And Costs
