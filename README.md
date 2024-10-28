@@ -17,7 +17,7 @@ ABC Telecom is experiencing substantial financial losses and operational challen
 
 ## Solution Architecture.
 
-![BBB](https://github.com/user-attachments/assets/dbd64a77-3f07-477b-bdec-790f809035f2)
+![BBB](https://github.com/user-attachments/assets/43961427-6546-4a9b-bbee-d24411d82943)
 
 ## The following steps were taken in carrying out the following Churn and Retention Analysis
 
