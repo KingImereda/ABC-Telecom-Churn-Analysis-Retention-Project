@@ -7,9 +7,9 @@
 - [Solution Architecture](#solution-architecture)
 - [Environment Setup](#environment-setup)
 - [Tools Used](#tools-used)
-- [Data Cleaning Preprocessing  And Explorative Data Analysis](#data-cleaning-preprocessing-and-explorative-data-analysis)
-- [Machine Learning models](#machine-learning-model)
-- [Register , Define ML model , Structure And Create New Customers Data](#register-,-define-ml-model-,-structure-and-create-new-customers-data)
+- [Data Cleaning Preprocessing And Explorative Data Analysis](#data-cleaning-preprocessing-and-explorative-data-analysis)
+- [Machine Learning models](#machine-learning-models)
+- [Register Define ML model Structure And Create New Customers Data](#register-define-ml-model-structure-and-create-new-customers-data)
 - [Model Deployment And Predictions](#model-deployment-and-predictions)
 - [Project Benefits And Costs](#project-benefits-and-costs)
 - [Risk Assessment and Mitigation](#risk-assessment-and-mitigation)
@@ -136,7 +136,7 @@ Using the saved 'One_Hot Encoding' dataset, the below ML model were developed wi
 #### Overall, these metrics suggest a well-performing model, though there’s always room for improvement. This model is selected for the 'Churn' prediction
 
 
-## Register, Define ML model, Structure And Create New Customers Data
+## Register Define ML model Structure And Create New Customers Data
 - Register the  ML classification model.
 - Define model signature, specify the structure and data types of the input and output data of the model
 - Creat new customers data to be later use for churn prediction
