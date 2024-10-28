@@ -1,4 +1,21 @@
-# Telco Churn Analysis & Retention Report- A Microsoft Fabric Project using Synapse Data Engineer, Synapse Data Science and Power BI.
+# ABC_Telecom Churn Analysis & Retention Report- A Microsoft Fabric Project using Synapse Data Engineer, Synapse Data Science and Power BI.
+
+## Table of Content.
+- [Bussiness Case](#business-case)
+- [Problem Statement](#problem-statement)
+- [Proposed Solution](#proposed-solution)
+- [Solution Architecture](#solution-architecture)
+- [Environment Setup](#environment-setup)
+- [Tools Used](#tools-used)
+- [Data Cleaning Preprocessing  And Explorative Data Analysis](#data-cleaning-preprocessing-and-explorative-data-analysis)
+- [Machine Learning models](#machine-learning-model)
+- [Register , Define ML model , Structure And Create New Customers Data](#register-,-define-ml-model-,-structure-and-create-new-customers-data)
+- [Model Deployment And Predictions](#model-deployment-and-predictions)
+- [Project Benefits and Costs](#project-benefit-and-costs)
+- [Risk Assessment and Mitigation](#risk-assessment-and-mitigation)
+- [Insights And Analysis](#insights-and-analysis)
+- [Recommendations](#recommendations)
+- [Conclusion](#conclusion)
 
 ## Business Case: Telecom Churn Analysis & Retention
 ABC Telecoms is facing a significant decline in revenue and market share due to increasing customer churn. To address this challenge, I propose a comprehensive churn analysis and retention strategy. By leveraging data-driven insights, we will accurately predict customer churn, identify at-risk customers, and implement targeted retention efforts to minimize customer attrition and maximize profitability.
@@ -52,6 +69,8 @@ Switch from Power BI environment to Synapse Data Engineering environment
 - Power BI
   - Dashboard and Report Visualization.
  
+# The following  task  were carried out in performing a Churn Analysis and Retension Strategy for ABC Telecom
+ 
 ## Create Lakehouse and Load raw csv file from local machine into the Lakehouse - file sub-section
 - Click on created Lakehouse
 - Under 'Explorer', click on 'File', then the three '...'
@@ -71,7 +90,7 @@ Switch from Power BI environment to Synapse Data Engineering environment
 - There are two options (Spark or Pandas), Choose "Spark". A code is automatically generated to read the raw json file as a Pyspark DataFrame.
 
 
-## 1. Data Cleaning, Preprocessing Explorative Data Analysis.
+## 1. Data Cleaning Preprocessing  And Explorative Data Analysis
 ### Data Cleaning.
 - Import necessary python libraries
 - Read the csv file
@@ -89,7 +108,7 @@ Switch from Power BI environment to Synapse Data Engineering environment
 -  Write/Save 'One-Hot Encoded' data into created Lakehouse
 
 
-## 2. Build Machine Learning models.
+## 2. Machine Learning models
 Using the saved 'One_Hot Encoding' dataset, the below ML model were developed with their performance metrics as follows 
 
 ![Screenshot 2024-10-28 150703](https://github.com/user-attachments/assets/07f97ccd-1227-4ce5-b661-471dadcb199f)
@@ -117,7 +136,7 @@ Using the saved 'One_Hot Encoding' dataset, the below ML model were developed wi
 #### Overall, these metrics suggest a well-performing model, though there’s always room for improvement. This model is selected for the 'Churn' prediction
 
 
-## 3. Register Define model StructureAnd Create New Customers Data
+## 3. Register, Define ML model, Structure And Create New Customers Data
 - Register the  ML classification model.
 - Define model signature, specify the structure and data types of the input and output data of the model
 - Creat new customers data to be later use for churn prediction
