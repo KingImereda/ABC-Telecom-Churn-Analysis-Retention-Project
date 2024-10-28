@@ -146,7 +146,8 @@ Using the saved 'One_Hot Encoding' dataset, the below ML model were developed wi
 ## 4. Model Deployment And Predictions
 - Registered model is apply to new customer for prediction.
 
-## Project Benefits and Costs
+## Project Benefits And Costs
+
 ### Benefits:
 1. Reduced Churn: Significantly lower churn rates through accurate prediction and targeted retention.
 2. Increased Customer Lifetime Value: Enhanced revenue generation from retaining high-value customers.
