@@ -15,75 +15,7 @@ ABC Telecom is experiencing substantial financial losses and operational challen
 6. Create a Power BI Dashboard: Visualize key performance metrics to track churn rates, customer lifetime value, and the effectiveness of retention efforts.
 7. Recommendations
 
-## Benefits and Costs
-### Benefits:
-1. Reduced Churn: Significantly lower churn rates through accurate prediction and targeted retention.
-2. Increased Customer Lifetime Value: Enhanced revenue generation from retaining high-value customers.
-3. Improved Customer Satisfaction: Personalized retention strategies boost customer satisfaction and loyalty.
-4.Optimized Operations: Data-driven insights enable efficient resource allocation and decision-making.
-
-### Costs:
-1. Microsoft Fabric Capacity
-2. Data Acquisition: Costs associated with collecting customer data.
-3. Retention Campaign Costs: Expenses related to implementing targeted retention strategies, such as promotional offers and customer support initiatives.
-
-## Risk Assessment and Mitigation
-### Potential Risks:
-1. Data Quality Issues: Inaccurate or incomplete data can compromise model accuracy.
-2. Model Accuracy: Model performance may vary over time due to changing customer behavior.
-3. Resistance to Change: Employees may resist new processes or systems.
-
-### Mitigation Strategies:
-
-1. Data Quality Assurance: Implement robust data validation and cleaning procedures.
-2. Model Refinement: Continuously monitor and update the model to maintain accuracy.
-3. Change Management: Provide training and support to facilitate the adoption of new processes.
-Return on Investment (ROI)
-4. The expected ROI depends on factors such as reduced churn rates, increased customer lifetime value, and implementation costs. A detailed ROI analysis will quantify the financial benefits and justify the investment.
-
-
-## Insights And Analysis:
-1. #### Customer Demographics & Billing:
-Non-senior citizens, customers without dependents, and those using electronic check or paperless billing show higher churn rates.
-  
-2. #### Contract Type:
-Monthly contracts correlate with high churn, while long-term contracts (two years or more) see significantly lower churn.
-  
-3. #### Tenure Influence:
-Churn is highest within the first 12 months and decreases with longer customer tenure.
-  
-4. #### Service & Support:
-Lack of tech support, online security, and device protection are major churn drivers.
-  
-5. #### Internet Type:
-Fibre optic internet users experience the highest churn compared to DSL or no internet service.
-  
-6. #### Charges:
-Higher monthly charges are associated with higher churn, while total charges increase as monthly charges rise, as expected.
-
-## Recommendations:
-Here are some recommendations based on the insights gathered:
-
-1. #### Promote Long-Term Contracts:
-Encourage customers to choose yearly or two-year plans by offering discounts or additional benefits, as longer contracts are linked to lower churn rates.
-
-2. #### Enhance Onboarding Support:
-Provide targeted support, particularly during the first 12 months, to reduce early-stage churn. Implement welcome calls, personalized check-ins, and proactive engagement to help customers fully utilize their services.
-
-3. #### Expand Customer Service Options:
-Increase access to tech support, online security, and device protection services. Consider bundling these with internet packages to improve customer retention.
-
-4. #### Offer Personalized Billing and Payment Options:
-Given higher churn rates among electronic check and paperless billing users, introduce flexible billing cycles, personalized payment methods, and incentives for timely payments.
-
-5. #### Introduce Discounts on High Monthly Charges:
-For customers with higher monthly charges, offer loyalty discounts or tiered pricing options to increase affordability and satisfaction.
-
-6. #### Invest in Retention for Fibre Optic Users:
-Since fibre optic users have higher churn, consider exclusive promotions, loyalty rewards, and service quality enhancements for this segment to boost satisfaction and retention.
-
-## Conclusion
-By implementing this comprehensive churn analysis and retention strategy, ABC Telecom can significantly improve customer retention, increase profitability, and gain a competitive advantage in the telecom market. The proposed solution provides a data-driven approach to address the challenges of customer churn and maximize long-term success.
+## The following steps were taken in carrying out the following Churn and Retention Analysis
 
 ## Environment Setup
 ### Create and configure Microsoft Fabric Workspace for this project
@@ -134,7 +66,6 @@ Switch from Power BI environment to Synapse Data Engineering environment
 - From the imported Lakehouse Database to the left, click on "File " (-This shows all files that reside in the Lakehouse Database),then "..." , then "Load Data"
 - There are two options (Spark or Pandas), Choose "Spark". A code is automatically generated to read the raw json file as a Pyspark DataFrame.
 
-## The following steps were taken in carrying out the following Churn and Retention Analysis
 ## 1. Data Cleaning, Preprocessing Explorative Data Analysis.
 ### Data Cleaning.
 - Import necessary python libraries
@@ -187,6 +118,74 @@ Using the saved 'One_Hot Encoding' dataset, the below ML model were developed wi
 
 ## 4. Predictions
 - Registered model is apply to new customer for prediction.
+
+## Project Benefits and Costs
+### Benefits:
+1. Reduced Churn: Significantly lower churn rates through accurate prediction and targeted retention.
+2. Increased Customer Lifetime Value: Enhanced revenue generation from retaining high-value customers.
+3. Improved Customer Satisfaction: Personalized retention strategies boost customer satisfaction and loyalty.
+4.Optimized Operations: Data-driven insights enable efficient resource allocation and decision-making.
+
+### Costs:
+1. Microsoft Fabric Capacity
+2. Data Acquisition: Costs associated with collecting customer data.
+3. Retention Campaign Costs: Expenses related to implementing targeted retention strategies, such as promotional offers and customer support initiatives.
+
+## Risk Assessment and Mitigation
+### Potential Risks:
+1. Data Quality Issues: Inaccurate or incomplete data can compromise model accuracy.
+2. Model Accuracy: Model performance may vary over time due to changing customer behavior.
+3. Resistance to Change: Employees may resist new processes or systems.
+
+### Mitigation Strategies:
+1. Data Quality Assurance: Implement robust data validation and cleaning procedures.
+2. Model Refinement: Continuously monitor and update the model to maintain accuracy.
+3. Change Management: Provide training and support to facilitate the adoption of new processes.
+Return on Investment (ROI)
+4. The expected ROI depends on factors such as reduced churn rates, increased customer lifetime value, and implementation costs. A detailed ROI analysis will quantify the financial benefits and justify the investment.
+
+## Insights And Analysis:
+1. #### Customer Demographics & Billing:
+Non-senior citizens, customers without dependents, and those using electronic check or paperless billing show higher churn rates.
+  
+2. #### Contract Type:
+Monthly contracts correlate with high churn, while long-term contracts (two years or more) see significantly lower churn.
+  
+3. #### Tenure Influence:
+Churn is highest within the first 12 months and decreases with longer customer tenure.
+  
+4. #### Service & Support:
+Lack of tech support, online security, and device protection are major churn drivers.
+  
+5. #### Internet Type:
+Fibre optic internet users experience the highest churn compared to DSL or no internet service.
+  
+6. #### Charges:
+Higher monthly charges are associated with higher churn, while total charges increase as monthly charges rise, as expected.
+
+## Recommendations:
+Here are some recommendations based on the insights gathered:
+
+1. #### Promote Long-Term Contracts:
+Encourage customers to choose yearly or two-year plans by offering discounts or additional benefits, as longer contracts are linked to lower churn rates.
+
+2. #### Enhance Onboarding Support:
+Provide targeted support, particularly during the first 12 months, to reduce early-stage churn. Implement welcome calls, personalized check-ins, and proactive engagement to help customers fully utilize their services.
+
+3. #### Expand Customer Service Options:
+Increase access to tech support, online security, and device protection services. Consider bundling these with internet packages to improve customer retention.
+
+4. #### Offer Personalized Billing and Payment Options:
+Given higher churn rates among electronic check and paperless billing users, introduce flexible billing cycles, personalized payment methods, and incentives for timely payments.
+
+5. #### Introduce Discounts on High Monthly Charges:
+For customers with higher monthly charges, offer loyalty discounts or tiered pricing options to increase affordability and satisfaction.
+
+6. #### Invest in Retention for Fibre Optic Users:
+Since fibre optic users have higher churn, consider exclusive promotions, loyalty rewards, and service quality enhancements for this segment to boost satisfaction and retention.
+
+## Conclusion
+By implementing this comprehensive churn analysis and retention strategy, ABC Telecom can significantly improve customer retention, increase profitability, and gain a competitive advantage in the telecom market. The proposed solution provides a data-driven approach to address the challenges of customer churn and maximize long-term success.
 
 
 
