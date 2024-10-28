@@ -116,7 +116,7 @@ Switch from Power BI environment to Synapse Data Engineering environment
 - Power BI
   - Dashboard and Report Visualization.
  
-## Load raw csv file from local machine into Fabric environment, into Lakehouse - file subsection
+## Create Lakehouse and Load raw csv file from local machine into the Lakehouse - file sub-section
 - Click on created Lakehouse
 - Under 'Explorer', click on 'File', then the three '...'
 - From the dropdown, click 'upload', then choose 'upload file'
@@ -124,7 +124,7 @@ Switch from Power BI environment to Synapse Data Engineering environment
 - Select file from your local machine
 - Click upload
 
-## Add  lakehouse to your  Synapse Data Engineering Notebook
+## Add created lakehouse to each of the spark Notebook to be used on this project.
 - In Synapse Data Engineer persona, to your  top-right click 'Notebook'
 - In Notebook environment,On the left, click "Add Lakehouse" button.- This help in accessing the different tables and files that reside in the Lakehouse  directly from the Notebook.
 - Choose "Existing Lakehouse".
@@ -134,7 +134,25 @@ Switch from Power BI environment to Synapse Data Engineering environment
 - From the imported Lakehouse Database to the left, click on "File " (-This shows all files that reside in the Lakehouse Database),then "..." , then "Load Data"
 - There are two options (Spark or Pandas), Choose "Spark". A code is automatically generated to read the raw json file as a Pyspark DataFrame.
 
+## Data Cleaning, Preprocessing Explorative Data Analysis.
+### Data Cleaning.
+- Import necessary python libraries
+- Read the csv file
+- Fetch the shape of the data (numbers of rows and columns) and check if each column has the right data type and convert columns with wrong data type tothe right data type
+- Fetch the summary statistics of each numerical column as well as number of churners against total number of customers.
+- Fetch number of missing values from the dataset. Delete records with missing values because they are so small in size compare to the number ofrecords in the dataset, thus there impact is expected to be infinitesimal.
+- Group the <tenure column> in to bins
 
+### Explorative Data Analysis
+- Perform Univariates Analysis of each of the 'Features' in respect to the 'Label'[churn]
+- Convert [churn] into binary values
+- Convert all non-numerical variables into dummy variables by applying One-Hot Encoding
+- Perform Bivariates Analysis of the 'Features' in respect to the 'Label' [chur]
+-  Analyse and draw business insights.
+-  Write/Save 'One-Hot Encoded' data into created Lakehouse
+
+
+## Build Machine Learning models.
 
 
 
