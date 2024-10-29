@@ -5,6 +5,7 @@
 - [Problem Statement](#problem-statement)
 - [Proposed Solution](#proposed-solution)
 - [Solution Architecture](#solution-architecture)
+- [Churn Analysis Dashboard](#churn-analysis-dashboard)
 - [Environment Setup](#environment-setup)
 - [Tools Used](#tools-used)
 - [Data Cleaning Preprocessing And Explorative Data Analysis](#data-cleaning-preprocessing-and-explorative-data-analysis)
@@ -35,6 +36,7 @@ ABC Telecom is experiencing substantial financial losses and operational challen
 ## Solution Architecture.
 
 ![BBB](https://github.com/user-attachments/assets/92363eca-3df3-4029-b3cc-438d750e6b02)
+
 
 ## Churn Analysis Dashboard
 
