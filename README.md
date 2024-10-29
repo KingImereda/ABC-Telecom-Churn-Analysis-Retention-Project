@@ -94,7 +94,7 @@ Switch from Power BI environment to Synapse Data Engineering environment
 ### Data Cleaning.
 - Import necessary python libraries
 - Read the csv file
-- Fetch the shape of the data (numbers of rows and columns) and check if each column has the right data type and convert columns with wrong data type tothe right data type
+- Fetch the shape of the data (numbers of rows and columns) and check if each column has the right data type and convert columns with invalid data type to the right data type.
 - Fetch the summary statistics of each numerical column as well as number of churners against total number of customers.
 - Fetch number of missing values from the dataset. Delete records with missing values because they are so small in size compare to the number ofrecords in the dataset, thus there impact is expected to be infinitesimal.
 - Group the <tenure column> in to bins
@@ -144,7 +144,7 @@ Using the saved 'One_Hot Encoding' dataset, the below ML model were developed wi
 
 
 ## Model Deployment And Predictions
-- Registered model is apply to new customer for prediction.
+- Registered model is applied to new customers table for prediction.
 
 ## Project Benefits And Costs
 
