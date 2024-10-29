@@ -150,6 +150,10 @@ Using the saved 'One_Hot Encoding' dataset, the below ML model were developed wi
 ## Model Deployment And Predictions
 - Registered model is applied to new customers table for prediction.
 
+## Visualization of Insights from Churn Analysis.
+- Semantic Model
+- Power BI Dashboard
+
 ## Project Benefits And Costs
 
 ### Benefits:
